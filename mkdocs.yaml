@@ -1,10 +1,4 @@
 site_name: Chain-Aware ROS Evaluation Tool (CARET)
-site_url: https://takam5f2.github.io/CARET_doc
-repo_url: https://github.com/takam5f2/CARET_doc
-edit_uri: edit/main/
-docs_dir:
-copyright: "Copyright &copy; 2021 Tier IV, inc. and Research Institute of System Planning, Inc."
-
 theme:
   name: "material"
   palette:
@@ -36,13 +30,6 @@ theme:
     - navigation.tabs.sticky
     - navigation.top
     - toc.integrate
-
-extra:
-  font:
-    text: Robot
-    code: Robot Mono
-  version:
-    provider: mike
 
 extra_css:
   - assets/stylesheets/tier4_color.css
