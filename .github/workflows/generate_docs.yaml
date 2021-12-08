@@ -10,7 +10,7 @@ on:
       - "**/*.svg"
       - "**/*.png"
       - "**/*.css"
-  pull_request:
+  pull_request_target:
     paths:
       - "mkdocs.yaml"
       - "**/*.md"
@@ -20,13 +20,13 @@ on:
 
 jobs:
   get-docs-version-name:
-    uses: autowarefoundation/autoware-github-actions/.github/workflows/reusable-get-docs-version-name.yaml@ec4c748cc49333a9067152b045fbc6a8bc0cd231
+    uses: autowarefoundation/autoware-github-actions/.github/workflows/reusable-get-docs-version-name.yaml@tier4/proposal
 
   generate-docs:
-    uses: autowarefoundation/autoware-github-actions/.github/workflows/reusable-generate-docs.yaml@ec4c748cc49333a9067152b045fbc6a8bc0cd231
+    uses: autowarefoundation/autoware-github-actions/.github/workflows/reusable-generate-docs.yaml@tier4/proposal
     needs: get-docs-version-name
     with:
-      script-ref: ec4c748cc49333a9067152b045fbc6a8bc0cd231
+      script-ref: tier4/proposal
       mkdocs-yaml: mkdocs.yaml
       version-name: ${{ needs.get-docs-version-name.outputs.version-name }}
     secrets:
