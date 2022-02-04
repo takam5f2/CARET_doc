@@ -8,8 +8,10 @@
       
       
       
+        <link rel="canonical" href="https://tier4.github.io/CARET_doc/main/">
+      
       <link rel="icon" href="assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.0.5">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.9">
     
     
       
@@ -17,10 +19,10 @@
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.a617204b.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.2b4465f4.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.9204c3b2.min.css">
+        <link rel="stylesheet" href="assets/stylesheets/palette.e6a45f82.min.css">
         
           
           
@@ -101,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Chain-Aware ROS Evaluation Tool (CARET)
+              Overview
             
           </span>
         </div>
@@ -144,6 +146,18 @@
 </div>
     
     
+      <div class="md-header__source">
+        <a href="https://github.com/tier4/CARET_doc/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
   </nav>
   
     
@@ -161,7 +175,7 @@
 
   <li class="md-tabs__item">
     <a href="." class="md-tabs__link md-tabs__link--active">
-      Chain-Aware ROS Evaluation Tool (CARET)
+      Overview
     </a>
   </li>
 
@@ -175,8 +189,8 @@
   
   
     <li class="md-tabs__item">
-      <a href="design/about_callback_graph/" class="md-tabs__link">
-        Design
+      <a href="tutorials/setup/" class="md-tabs__link">
+        Tutorials
       </a>
     </li>
   
@@ -191,7 +205,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="supplements/about_communication_latency/" class="md-tabs__link">
+      <a href="supplements/env/" class="md-tabs__link">
         Supplements
       </a>
     </li>
@@ -207,8 +221,8 @@
   
   
     <li class="md-tabs__item">
-      <a href="tutorials/create_architecture/" class="md-tabs__link">
-        Tutorials
+      <a href="design/tracepoint_definition/" class="md-tabs__link">
+        Design
       </a>
     </li>
   
@@ -252,6 +266,18 @@
     Chain-Aware ROS Evaluation Tool (CARET)
   </label>
   
+    <div class="md-nav__source">
+      <a href="https://github.com/tier4/CARET_doc/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
   <ul class="md-nav__list" data-md-scrollfix>
     
       
@@ -272,12 +298,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Chain-Aware ROS Evaluation Tool (CARET)
+          Overview
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="." class="md-nav__link md-nav__link--active">
-        Chain-Aware ROS Evaluation Tool (CARET)
+        Overview
       </a>
       
         
@@ -341,14 +367,14 @@
       
       
         <label class="md-nav__link" for="__nav_2">
-          Design
+          Tutorials
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Design" data-md-level="1">
+      <nav class="md-nav" aria-label="Tutorials" data-md-level="1">
         <label class="md-nav__title" for="__nav_2">
           <span class="md-nav__icon md-icon"></span>
-          Design
+          Tutorials
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -358,8 +384,8 @@
   
   
     <li class="md-nav__item">
-      <a href="design/about_callback_graph/" class="md-nav__link">
-        コールバックグラフについて
+      <a href="tutorials/setup/" class="md-nav__link">
+        環境構築
       </a>
     </li>
   
@@ -372,8 +398,8 @@
   
   
     <li class="md-nav__item">
-      <a href="design/about_message_tracking/" class="md-nav__link">
-        About message tracking
+      <a href="tutorials/measurement/" class="md-nav__link">
+        測定
       </a>
     </li>
   
@@ -386,8 +412,8 @@
   
   
     <li class="md-nav__item">
-      <a href="design/architecture/" class="md-nav__link">
-        アーキテクチャ
+      <a href="tutorials/create_architecture/" class="md-nav__link">
+        アーキテクチャファイル
       </a>
     </li>
   
@@ -400,50 +426,8 @@
   
   
     <li class="md-nav__item">
-      <a href="design/design/" class="md-nav__link">
-        Design
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="design/diff/" class="md-nav__link">
-        ROS 2 galactic との差分
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="design/interface/" class="md-nav__link">
-        Interface
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="design/tracepoint_definition/" class="md-nav__link">
-        Tracepoint definition
+      <a href="tutorials/performance_evaluation/" class="md-nav__link">
+        性能評価
       </a>
     </li>
   
@@ -490,22 +474,8 @@
   
   
     <li class="md-nav__item">
-      <a href="supplements/about_communication_latency/" class="md-nav__link">
-        通信レイテンシについて
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
       <a href="supplements/env/" class="md-nav__link">
-        利用可能な環境変数一覧
+        利用可能な環境変数
       </a>
     </li>
   
@@ -519,7 +489,21 @@
   
     <li class="md-nav__item">
       <a href="supplements/limits/" class="md-nav__link">
-        制限
+        ツール利用時の制約
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="supplements/about_communication_latency/" class="md-nav__link">
+        通信レイテンシについて
       </a>
     </li>
   
@@ -563,14 +547,14 @@
       
       
         <label class="md-nav__link" for="__nav_4">
-          Tutorials
+          Design
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Tutorials" data-md-level="1">
+      <nav class="md-nav" aria-label="Design" data-md-level="1">
         <label class="md-nav__title" for="__nav_4">
           <span class="md-nav__icon md-icon"></span>
-          Tutorials
+          Design
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -580,8 +564,8 @@
   
   
     <li class="md-nav__item">
-      <a href="tutorials/create_architecture/" class="md-nav__link">
-        アーキテクチャファイル
+      <a href="design/tracepoint_definition/" class="md-nav__link">
+        トレースポイントの定義
       </a>
     </li>
   
@@ -594,8 +578,8 @@
   
   
     <li class="md-nav__item">
-      <a href="tutorials/measurement/" class="md-nav__link">
-        測定
+      <a href="design/about_callback_graph/" class="md-nav__link">
+        コールバックグラフについて
       </a>
     </li>
   
@@ -608,22 +592,8 @@
   
   
     <li class="md-nav__item">
-      <a href="tutorials/performance_evaluation/" class="md-nav__link">
-        性能評価
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="tutorials/setup/" class="md-nav__link">
-        環境構築
+      <a href="design/diff/" class="md-nav__link">
+        galacticとの差分
       </a>
     </li>
   
@@ -648,6 +618,10 @@
             <article class="md-content__inner md-typeset">
               
                 
+<a href="https://github.com/tier4/CARET_doc/edit/master/docs/index.md" title="Edit this page" class="md-content__button md-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+</a>
+
 
 <h1 id="chain-aware-ros-evaluation-tool-caret">Chain-Aware ROS Evaluation Tool (CARET)<a class="headerlink" href="#chain-aware-ros-evaluation-tool-caret" title="Permanent link">#</a></h1>
 <p>コールバックチェーンを考慮した ROS 2 アプリケーションの性能評価ツールです。
@@ -768,13 +742,13 @@
       
       
         
-        <a href="design/about_callback_graph/" class="md-footer__link md-footer__link--next" aria-label="Next: コールバックグラフについて" rel="next">
+        <a href="tutorials/setup/" class="md-footer__link md-footer__link--next" aria-label="Next: 環境構築" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              コールバックグラフについて
+              環境構築
             </div>
           </div>
           <div class="md-footer__button md-icon">
@@ -787,6 +761,10 @@
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
       <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2021
+    </div>
   
   
     Made with
@@ -804,10 +782,10 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.expand", "navigation.instant", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "toc.integrate"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "assets/javascripts/workers/search.cefbb252.min.js"}</script>
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.expand", "navigation.instant", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "toc.integrate"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "assets/javascripts/workers/search.22074ed6.min.js"}</script>
     
     
-      <script src="assets/javascripts/bundle.a5f8ea78.min.js"></script>
+      <script src="assets/javascripts/bundle.960e086b.min.js"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
       
